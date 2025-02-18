@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, intial-width=1.0">
+	
+<style>
+
+body{
+	
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	float: left;
+	text-align: left;
+	width: 60%;
+	height: auto;
+	background-color: #E5E4E2;
+	padding: 20px;
+	border: px outset black;
+	margin: 15px;
+	position: relative;
+}
+
+.me {
+	float:right; 
+	object-fit: contain; 
+	width: 100%; 
+	height: auto
+	transition: .5 ease; 
+	backface-visibility: hidden; 
+	opacity: 1; 
+	display: block;
+}
+
+.main:hover .me {
+	opacity: 0.5;
+}
+
+.main:hover .mid {
+	opacity: 1;
+}
+
+.fill {
+	width: 98%;
+	height: auto;
+	background-color: #FFCBCB;
+	float: left;
+	padding: 20px;
+	margin: 15px;
+	text-align: center;
+}
+
+.left {
+	width:20%;
+	height: auto;
+	background-color: #D9D7F1;
+	float:left;
+	padding: 10px;
+	border: px outset black;
+	margin: 15px;
+	
+}
+
+.hobby {
+	width: 20%;
+	height:auto;
+	background-color: #FFFDDE;
+	float: left ;
+	padding: 10px;
+	margin: 15px;
+	border: ;
+}
+
+.edu {
+	width: 20%;
+	height:auto;
+	background-color: #E7FBBE;
+	float: left ;
+	padding: 10px;
+	margin: 15px;
+	border: ;
+}
+
+.mid {
+	transition: .5 ease;
+	opacity: 0;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	-ms- transform: translate(-50%, -50%);
+}
+
+.txt {
+	background-color: #04AA6D;
+	color: white;
+	font-size:16px;
+	padding: 16px 32px;
+}
+
+@media only screen and (max-width: 620px) {
+  .me, .main, .txt,.mid, .edu, .hobby, .left, .fill, .prf{
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+
+<body style="background-image: url('BG1.avif'); background-repeat:no-repeat; background-size:cover; background-position:fixed;">
+
+
+<div class="prf" style="float:center; width:auto; background-color:#efe7d2 ; font-family: Verdana; text-align:center; padding:2px; margin: 15px;">
+	<img src="gaycat.jpg" style="width:10%;left:10%; height:auto; object-fit: cover; float:left; position: relative;top:10px">
+	<img src="Thumbsup_emoji.png" style="position:absolute; right:240px; width:10%">
+	<h1 style="font-size:4vw">My profile</h1>
+</div>
+	
+<div style="overflow:auto">
+
+	<div class="main">
+		<img src="menkit.jpg" class="me">
+		<div class="mid">
+			<div class="txt">Harry</div>
+		</div>
+		<div style="float:right; width: 70%;"><p style="float: right;"> </br>
+		<h3>Introduction</h3>
+		<p>Hello, this is a little introduction to my self. 
+		My name is Harry as stated above, I am 18 years old and there are a few things in life that I 
+		thoroughly enjoy, such as CATS mmm I love cats, I want to adopt and own a kitty so bad mmm
+		little kitty, I just find them really cute. 
+		Another I really like is food, good food. It can be from any culture and any cuisine, if it taste good
+		Im devouring it. 
+		</p></br></br></br> </div> 
+		<h2>Name: Harry Chiu</h2>
+		<h3>Student ID: 2702357882 <br> Class: L1CC</h3>
+		<form>
+			<p>I am a: </p>
+			&nbsp;<input type="radio" id="Male" name="one">
+			&nbsp;<label for="Male">Male</label></br>
+			&nbsp;<input type="radio" id="Female" name="one">
+			&nbsp;<label for="Female">Female</label>
+		</form>
+	</div>
+	
+	
+	<div class="left">
+		<img src="Ig.jpg" style="width:30%;float:right;object-fit:contain;">
+		<h3>My socials!!!</h3>
+		<p>This is my <a href="https://instagram.com/harryc_u?igshid=MzRlODBiNWFlZA==" target="blank">instagram</a></p>
+		<p></br></br></br>I do not have other form of social media</p>
+	</div>
+	
+	<div style="float: left; width:14%; margin: 15px;">
+		<img src="MGS.png" style="float:center;width:100%;height;100%;object-fit:contain;">
+	</div>
+	
+	<div class="hobby">
+		<p>Though I do not particulary have a hobby, I have a lot of things I like to do for fun
+		which Im not exactly good at but I have doing these.</p>
+		<h3>Some activities I enjoy doing:</h3>
+		<ul>
+			<li>Dance</li>
+			<li>Basketball</li>
+			<li>Eating</li>
+			<li>Gaming</li>
+			<li>Watching video essays</li>
+			<li>Car spotting</li>
+		</ul>
+	</div>
+	
+	<div style="float: left; width:14%; margin: 15px;">
+		<img src="PNBR.png" style="float:center;width:100%;height;100%;object-fit:contain;">
+	</div>
+	
+	<div class="edu">
+		<h3>Education:</h3>
+		<ol>
+			<li>Primary school - <a href="https://mgs-jkt.sch.id/" target="blank">Mahatma Gading School </a></li>
+			<li>Lower-Secondary school - <a href="https://mgs-jkt.sch.id/" target="blank">Mahatma Gading School </a></li>
+			<li>Upper-Secondary school - <a href="https://www.penabur-inter.sch.id/" target="blank">Penabur International Kelapa Gading</a></li>
+		</ol>
+	</div>
+	
+	<div style="float: left; width:14%; margin: 15px;">
+			</br></br>
+		<img src="BINUS.png" style="float:center;width:100%;height;100%;object-fit:contain;">
+	</div>
+	
+	<div class="fill">
+		<h2>This website is made by Harry Chiu</h2>
+		
+	</div>
+
+</div>
+	
+</body>
+</html>
